@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<title>Trivia Game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<title>Trivia Game</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--google fonts-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="style">
+<!--stylesheet-->
+
+<!--jquery-->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+</head>
+
+<!--Insert all style features here/ may move to separate file?-->
+<style>
+    body {
+        background: #009688;
+    }
+    
+    h1 {
+        margin-top: 4%;
+        font-size: 40px;
+    }
+    
+    div.header {
+        text-align: center;
+        padding: 0px;
+    }
+    
+    #timer {
+        text-align: center;
+    }
+    
+    .trivia-container {
+        text-align: center;
+    }
+    
+    button#startButton.btn.btn-primary.btn-lg {
+        color: black;
+        font-size: 16px;
+    }
+    
+    .submitButton {}
+</style>
+
+
+<!--HTML-->
+
+<body>
+    <!-- Page Content -->
+
+
+    <!--NAV BAR-->
+    <div class="w3-container w3-teal">
+        <div id=container1></div>
+        <div class="header">
+            <h1>World Trivia</h1>
+            <p>How well do you know your world capitals?</P>
+        </div>
+    </div>
+    </div>
+
+    <!--CONTAINER FOR QUESTIONS-->
+    <div class="w3-container">
+        <div class="trivia-container">
+            <div id="timer">
+                <h2>Timer</h2>
+                <p>30 Seconds</p>
+                <div>
+                    <form>
+                        <h2>Questions</h2>
+                        <p>You have 30 seconds to complete 12 questions. Click the start button to the left to begin.
+                        </p>
+                        <div class=container1 <div class="button">
+                            <button class="btn btn-primary btn-lg" id="startButton">Start</button>
+                        </div>
+                        <div id="trivia">
+                        </div>
+
+
+                        <button class="btn btn-primary" id="submitButton">Submit Button</button>
+                </div>
+            </div>
+        </div>
+
+        </form>
+
+</body>
+
+</html>
+<script src="assets/javascript/questions.js "></script>
